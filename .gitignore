@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+output/*
+!output/.gitkeep
+!output/mapped_endpoints.csv

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "med-endpoint-mapper"
+version = "0.1.0"
+description = "Auditable endpoint normalization library for biomedical datasets"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+endpoint-map = "endpoint_mapper.cli:main"
+endpoint-serve = "endpoint_mapper.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
