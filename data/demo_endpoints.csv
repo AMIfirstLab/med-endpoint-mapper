@@ -1,0 +1,12 @@
+row_id,source_endpoint,domain
+1,EE%,drug_delivery
+2,encapsulation rate,drug_delivery
+3,Z average,drug_delivery
+4,transfection efficency,drug_delivery
+5,ORR,oncology
+6,median progression free survival,oncology
+7,weight-loss,metabolic
+8,HbA1c,metabolic
+9,response rate,oncology
+10,particle diameter,drug_delivery
+11,serum biomarker X,metabolic

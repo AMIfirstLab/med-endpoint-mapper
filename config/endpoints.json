@@ -1,0 +1,58 @@
+[
+  {
+    "id": "EP-LNP-001",
+    "canonical_name": "encapsulation_efficiency",
+    "label_ko": "봉입 효율",
+    "domain": "drug_delivery",
+    "unit": "%",
+    "aliases": ["EE", "EE%", "encapsulation rate", "encapsulation efficiency percent"]
+  },
+  {
+    "id": "EP-LNP-002",
+    "canonical_name": "hydrodynamic_diameter",
+    "label_ko": "유체역학적 직경",
+    "domain": "drug_delivery",
+    "unit": "nm",
+    "aliases": ["particle size", "Z-average", "mean diameter", "DLS size"]
+  },
+  {
+    "id": "EP-LNP-003",
+    "canonical_name": "transfection_efficiency",
+    "label_ko": "형질주입 효율",
+    "domain": "drug_delivery",
+    "unit": "%",
+    "aliases": ["transfection rate", "positive cells", "delivery efficiency"]
+  },
+  {
+    "id": "EP-ONC-001",
+    "canonical_name": "objective_response_rate",
+    "label_ko": "객관적 반응률",
+    "domain": "oncology",
+    "unit": "%",
+    "aliases": ["ORR", "objective response", "overall response rate"]
+  },
+  {
+    "id": "EP-ONC-002",
+    "canonical_name": "progression_free_survival",
+    "label_ko": "무진행 생존기간",
+    "domain": "oncology",
+    "unit": "month",
+    "aliases": ["PFS", "progression-free survival time", "median PFS"]
+  },
+  {
+    "id": "EP-MET-001",
+    "canonical_name": "body_weight_change",
+    "label_ko": "체중 변화",
+    "domain": "metabolic",
+    "unit": "%",
+    "aliases": ["weight loss", "bodyweight change", "percent weight change"]
+  },
+  {
+    "id": "EP-MET-002",
+    "canonical_name": "glycated_hemoglobin",
+    "label_ko": "당화혈색소",
+    "domain": "metabolic",
+    "unit": "%",
+    "aliases": ["HbA1c", "A1C", "glycosylated hemoglobin"]
+  }
+]
