@@ -1,0 +1,12 @@
+row_id,source_endpoint,domain,source,endpoint_id,canonical_name,label_ko,canonical_unit,match_method,confidence,matched_term,needs_review
+1,EE%,drug_delivery,EE%,EP-LNP-001,encapsulation_efficiency,봉입 효율,%,alias,0.98,EE%,False
+2,encapsulation rate,drug_delivery,encapsulation rate,EP-LNP-001,encapsulation_efficiency,봉입 효율,%,alias,0.98,encapsulation rate,False
+3,Z average,drug_delivery,Z average,EP-LNP-002,hydrodynamic_diameter,유체역학적 직경,nm,alias,0.98,Z-average,False
+4,transfection efficency,drug_delivery,transfection efficency,EP-LNP-003,transfection_efficiency,형질주입 효율,%,fuzzy,0.836,transfection_efficiency,True
+5,ORR,oncology,ORR,EP-ONC-001,objective_response_rate,객관적 반응률,%,alias,0.98,ORR,False
+6,median progression free survival,oncology,median progression free survival,EP-ONC-002,progression_free_survival,무진행 생존기간,month,fuzzy,0.8492,progression_free_survival,True
+7,weight-loss,metabolic,weight-loss,EP-MET-001,body_weight_change,체중 변화,%,alias,0.98,weight loss,False
+8,HbA1c,metabolic,HbA1c,EP-MET-002,glycated_hemoglobin,당화혈색소,%,alias,0.98,HbA1c,False
+9,response rate,oncology,response rate,EP-ONC-001,objective_response_rate,객관적 반응률,%,fuzzy,0.7431,overall response rate,True
+10,particle diameter,drug_delivery,particle diameter,,,,,unmapped,0.0,,True
+11,serum biomarker X,metabolic,serum biomarker X,,,,,unmapped,0.0,,True
