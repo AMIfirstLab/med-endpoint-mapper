@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360">
+ <rect width="1000" height="360" rx="22" fill="#091525"/>
+ <g font-family="Segoe UI, Arial">
+  <text x="55" y="55" fill="#fff" font-size="25" font-weight="700">Demo mapping coverage</text>
+  <text x="55" y="83" fill="#86a5ba" font-size="14">exact/alias는 자동 승인 · fuzzy와 unmapped는 review queue</text>
+  <g transform="translate(55 130)">
+   <text y="25" fill="#d8e8f1" font-size="16">Alias / canonical</text><rect x="210" width="560" height="30" rx="8" fill="#163149"/><rect x="210" width="305" height="30" rx="8" fill="#43dacd"/><text x="790" y="22" fill="#43dacd">6</text>
+   <text y="95" fill="#d8e8f1" font-size="16">Fuzzy + review</text><rect x="210" y="70" width="560" height="30" rx="8" fill="#163149"/><rect x="210" y="70" width="153" height="30" rx="8" fill="#9e8cff"/><text x="790" y="92" fill="#9e8cff">3</text>
+   <text y="165" fill="#d8e8f1" font-size="16">Unmapped</text><rect x="210" y="140" width="560" height="30" rx="8" fill="#163149"/><rect x="210" y="140" width="102" height="30" rx="8" fill="#ff8d8d"/><text x="790" y="162" fill="#ff8d8d">2</text>
+  </g>
+ </g>
+</svg>
